@@ -1,0 +1,301 @@
+PROFILERS
+
+FFTBASE.C
+
+Header info for GuitarDry.wav
+ChunkID: RIFF
+ChunkSize: 3538982
+Format: WAVE
+SubChunk1ID: fmt 
+SubChunk1Size: 18
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 44100
+ByteRate: 88200
+BlockAlign: 2
+BitsPerSample: 16
+SubChunk2ID: data
+SubChunk2Size: 3538944
+
+
+IR file being used: l960auto_park.wav
+Now creating convolution reverb file: outBase.wav
+Convolution complete! Output file name: outBase.wav
+Program duration:  2.526649 seconds
+
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 96.82      2.38     2.38        3     0.79     0.79  four1
+  2.44      2.44     0.06        1     0.06     2.46  convolvefft
+  0.81      2.46     0.02        1     0.02     0.02  getConvolved
+  0.00      2.46     0.00        1     0.00     0.00  getIR
+  0.00      2.46     0.00        1     0.00     0.00  getWAV
+
+-----------------------
+
+CONVOLVEOPTIMIZED1.C
+
+Header info for GuitarDry.wav
+ChunkID: RIFF
+ChunkSize: 3538982
+Format: WAVE
+SubChunk1ID: fmt 
+SubChunk1Size: 18
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 44100
+ByteRate: 88200
+BlockAlign: 2
+BitsPerSample: 16
+SubChunk2ID: data
+SubChunk2Size: 3538944
+
+
+IR file being used: l960auto_park.wav
+Now creating convolution reverb file: outBase.wav
+Convolution complete! Output file name: outBase.wav
+Program duration:  2.370080 seconds
+
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 97.46      2.24     2.24        3     0.75     0.75  four1
+  2.18      2.29     0.05        1     0.05     2.30  convolvefft
+  0.44      2.30     0.01        1     0.01     0.01  getConvolved
+  0.00      2.30     0.00        1     0.00     0.00  getIR
+  0.00      2.30     0.00        1     0.00     0.00  getWAV
+
+---------------------------
+
+CONVOLVEOPTIMIZED2.C
+
+Header info for GuitarDry.wav
+ChunkID: RIFF
+ChunkSize: 3538982
+Format: WAVE
+SubChunk1ID: fmt 
+SubChunk1Size: 18
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 44100
+ByteRate: 88200
+BlockAlign: 2
+BitsPerSample: 16
+SubChunk2ID: data
+SubChunk2Size: 3538944
+
+
+IR file being used: l960auto_park.wav
+Now creating convolution reverb file: outBase.wav
+Convolution complete! Output file name: outBase.wav
+Program duration:  2.335378 seconds
+
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 95.70      2.19     2.19        3     0.73     0.73  four1
+  2.19      2.24     0.05        1     0.05     2.27  convolvefft
+  1.31      2.27     0.03        1     0.03     0.03  getConvolved
+  0.87      2.29     0.02        1     0.02     0.02  getWAV
+  0.00      2.29     0.00        1     0.00     0.00  getIR
+
+
+---------------------------------
+
+Header info for GuitarDry.wav
+ChunkID: RIFF
+ChunkSize: 3538982
+Format: WAVE
+SubChunk1ID: fmt 
+SubChunk1Size: 18
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 44100
+ByteRate: 88200
+BlockAlign: 2
+BitsPerSample: 16
+SubChunk2ID: data
+SubChunk2Size: 3538944
+
+
+IR file being used: l960auto_park.wav
+Now creating convolution reverb file: outBase.wav
+Convolution complete! Output file name: outBase.wav
+Program duration:  2.230415 seconds
+
+
+CONVOLVEOPTIMIZED3.C
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 96.82      2.08     2.08        3     0.69     0.69  four1
+  2.33      2.13     0.05        1     0.05     2.14  convolvefft
+  0.47      2.14     0.01        1     0.01     0.01  getConvolved
+  0.47      2.15     0.01        1     0.01     0.01  getWAV
+  0.00      2.15     0.00        1     0.00     0.00  getIR
+
+-------------------------------------------
+
+CONVOLVEOPTIMIZED4.C
+
+Header info for GuitarDry.wav
+ChunkID: RIFF
+ChunkSize: 3538982
+Format: WAVE
+SubChunk1ID: fmt 
+SubChunk1Size: 18
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 44100
+ByteRate: 88200
+BlockAlign: 2
+BitsPerSample: 16
+SubChunk2ID: data
+SubChunk2Size: 3538944
+
+
+IR file being used: l960auto_park.wav
+Now creating convolution reverb file: outBase.wav
+Convolution complete! Output file name: outBase.wav
+Program duration:  2.222126 seconds
+
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 97.32      2.12     2.12        3     0.71     0.71  four1
+  2.30      2.17     0.05        1     0.05     2.18  convolvefft
+  0.46      2.18     0.01        1     0.01     0.01  getConvolved
+  0.00      2.18     0.00        1     0.00     0.00  getIR
+  0.00      2.18     0.00        1     0.00     0.00  getWAV
+
+-----------------------------------------------
+
+CONVOLVEOPTIMIZED5.C
+
+Header info for GuitarDry.wav
+ChunkID: RIFF
+ChunkSize: 3538982
+Format: WAVE
+SubChunk1ID: fmt 
+SubChunk1Size: 18
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 44100
+ByteRate: 88200
+BlockAlign: 2
+BitsPerSample: 16
+SubChunk2ID: data
+SubChunk2Size: 3538944
+
+
+IR file being used: l960auto_park.wav
+Now creating convolution reverb file: outBase.wav
+Convolution complete! Output file name: outBase.wav
+Program duration:  2.199615 seconds
+
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 97.24      2.06     2.06        3     0.69     0.69  four1
+  2.36      2.11     0.05        1     0.05     2.11  convolvefft
+  0.47      2.12     0.01        1     0.01     0.01  getWAV
+  0.00      2.12     0.00        1     0.00     0.00  getConvolved
+  0.00      2.12     0.00        1     0.00     0.00  getIR
+
+--------------------------------------------------------
+
+CONVOLVE.C
+
+Header info for GuitarDry.wav
+ChunkID: RIFF
+ChunkSize: 3538982
+Format: WAVE
+SubChunk1ID: fmt 
+SubChunk1Size: 18
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 44100
+ByteRate: 88200
+BlockAlign: 2
+BitsPerSample: 16
+SubChunk2ID: data
+SubChunk2Size: 3538944
+
+
+IR file being used: l960auto_park.wav
+
+Number of samples for output file: 1769472
+Convolution complete! Output file name: outBase.wav
+Time spent: 3148.197841 seconds
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ks/call  Ks/call  name    
+100.12   2495.70  2495.70        1     2.50     2.50  convolve
+  0.00   2495.70     0.00        1     0.00     0.00  getIR
+  0.00   2495.70     0.00        1     0.00     0.00  getWAV
+
+----------------------------------------------------------------
+
+gcc convolveOptimized.c -lm -pg -O2 -o convolveOptimized
+./convolveOptimzied GuitarDry.wav l960auto_park.wav outBase.wav
+
+Header info for GuitarDry.wav
+ChunkID: RIFF
+ChunkSize: 3538982
+Format: WAVE
+SubChunk1ID: fmt 
+SubChunk1Size: 18
+AudioFormat: 1
+NumChannels: 1
+SampleRate: 44100
+ByteRate: 88200
+BlockAlign: 2
+BitsPerSample: 16
+SubChunk2ID: data
+SubChunk2Size: 3538944
+
+
+IR file being used: l960auto_park.wav
+Now creating convolution reverb file: outBase.wav
+Convolution complete! Output file name: outBase.wav
+Program duration:  1.465262 seconds
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 96.88      1.35     1.35        3   448.86   448.86  four1
+  2.88      1.39     0.04                             convolvefft
+  0.00      1.39     0.00        1     0.00     0.00  getConvolved
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
